@@ -46,3 +46,4 @@ for ip in active_devices:
     mac = get_mac(ip, arp_data)
     hostname = get_hostname(ip)
     print(f"{ip:<16} {mac:<20} {hostname:<30}")
+    print("\n             Thanks for Supporting Jude")
